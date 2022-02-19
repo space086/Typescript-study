@@ -1,4 +1,6 @@
 //09. type alias vs interface
+//type alias : 타입을 부르는 이름
+//interface : 새로운 타입을 만들어 내는 것
 /*
 #function
   -type alias
@@ -8,6 +10,7 @@
     interface IEat {
       (food:string): void;
     }
+
 #array
   -type alias
     type PersonList = string[];
