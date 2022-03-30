@@ -19,5 +19,6 @@ function helloGeneric<T>(message: T): T {
 }
 
 console.log(helloGeneric('mark').length);
+//.length 사용 불가능 ?: number에는 사용할 수 없음.
 console.log(helloGeneric(39));
 console.log(helloGeneric(true));
